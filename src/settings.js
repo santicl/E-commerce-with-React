@@ -1,9 +1,6 @@
-import IslaGrande from './img/isla-grande.jpg';
 import IslaDelRosario from './img/islas-del-rosario.webp';
 import IslaFuerte from './img/isla-fuerte.jpg';
 import IslaSanBernardo from './img/isla-san-bernardo.jpg';
-import IslaMucura from './img/isla-mucura.jpg';
-import Islote from './img/islote.jpg';
 import IslaBaru from './img/isla-baru.jpg';
 import TierraBomba from './img/tierra-bomba.jpg';
 
