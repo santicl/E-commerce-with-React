@@ -12,17 +12,9 @@ function App() {
 
 
   return (
-    <BrowserRouter>
-      <Routes>
-
-        <Route exact path='/' element={<Home />} />
-        <Route path='/islands/:title' element={<IslandFilters products={products} />} />
-        <Route path='/category/:category' element={<ForCategory products={products} />} />
-        <Route path='*' element={<h1>404 ERROR</h1>} />
-
-      </Routes>
-      
-    </ BrowserRouter>
+    <div>
+      <h1>Holaaaaaaaa</h1>
+    </div>
   );
 }
 
