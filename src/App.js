@@ -10,7 +10,6 @@ import ForCategory from './layouts/ForCategory';
 function App() {
   const { products } = useCategory();
 
-
   return (
     <BrowserRouter>
       <Routes>
@@ -21,7 +20,6 @@ function App() {
         <Route path='*' element={<h1>404 ERROR</h1>} />
 
       </Routes>
-      
     </ BrowserRouter>
   );
 }
