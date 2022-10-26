@@ -1,5 +1,5 @@
 import useCategory from '../../hooks/useCategory';
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCVD2Tcq46_VXNR0kdTL0ZAE3iIPz7D1HE",

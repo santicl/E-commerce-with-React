@@ -3,7 +3,7 @@ import SubscribeImage from '../../img/isla-fuerte.jpg';
 function Subscribe() {
     return (
         <div className="Subscribe">
-            <img src={SubscribeImage} />
+            <img src={`${SubscribeImage}`} />
             <form>
                 <div className="Subscribe__container">
                     <div className="Subscribe__container__text">

@@ -1,7 +1,5 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import { createPortal } from "react-dom";
-
-const body = document.getElementById('modals');
 
 export default class Portal extends Component {
     constructor(props) {

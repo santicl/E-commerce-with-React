@@ -6,7 +6,7 @@ function ResultSearch({ keyword, show }) {
     const { products } = useCategory();
 
     const handlerSearch = () => {
-        const result = keyword == ''
+        const result = keyword === ''
             ? ''
             : products.filter((product) => product.title.toLowerCase().includes(keyword.toLowerCase()));
         return result;
@@ -19,7 +19,7 @@ function ResultSearch({ keyword, show }) {
                 show && (
                     <div className="Result-search">
                         {
-                            keyword == '' ? <h1>Haga su busqueda</h1>
+                            keyword === '' ? <h1>Haga su busqueda</h1>
                                 : handlerSearch().map((item, index) => (
                                     <div key={index} className="Result-search-item">
                                         <img src={path(`./${item.img}`)} alt={item.title} />
